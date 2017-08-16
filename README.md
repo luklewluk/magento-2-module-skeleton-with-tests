@@ -1,8 +1,8 @@
-# Magento 2 module skeleton with tests
+# Magento 2 Module Skeleton with tests
 
 Very basic Magento module 2 skeleton with simple Unit Tests configuration.
 
-Note: Tests are set to be run OUTSIDE the project. That allows to create standalone module build.
+Note: Tests are configured to be run OUTSIDE a Magento project. That allows to create standalone module build.
 
 ## Test Build
 

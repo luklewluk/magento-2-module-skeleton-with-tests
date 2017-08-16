@@ -17,7 +17,7 @@ class DataTest extends TestCase
     /**
      * Example test
      */
-    public function testIfHelperIsInstanceOfAbstractHelper()
+    public function testIfHelperExtendsAbstractHelper()
     {
         // Prophecy to disable constructor
         $helperProphecy = $this->prophesize(Data::class);
