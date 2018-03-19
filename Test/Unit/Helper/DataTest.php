@@ -1,16 +1,15 @@
 <?php
 
-namespace luklew\ModuleSkeleton\Tests\Helper;
+namespace Luklewluk\ModuleSkeleton\Test\Unit\Helper;
 
-use luklew\ModuleSkeleton\Helper\Data;
+use Luklewluk\ModuleSkeleton\Helper\Data;
 use Magento\Framework\App\Helper\AbstractHelper;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Tests for Data Helper
  *
- * @package luklew\ModuleSkeleton\Tests\Helper
- * @author  Lukasz Lewandowski <luklewluk@gmail.com>
+ * @author Lukasz Lewandowski <luklewluk@gmail.com>
  */
 class DataTest extends TestCase
 {

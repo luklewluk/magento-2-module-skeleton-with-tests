@@ -2,9 +2,8 @@
   "name": "luklewluk/magento-2-module-skeleton-with-tests",
   "description": "Magento 2 Module skeleton with tests",
   "require": {
-    "php": "~7.0.0",
-    "magento/framework": "100.*.*",
-    "magento/module-store" : "100.*.*"
+    "magento/framework": "^100.0|^101.0",
+    "magento/module-store": "^100.0|^101.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~6.3",
@@ -19,15 +18,10 @@
   },
   "autoload": {
     "files": [
-      "src/registration.php"
+      "registration.php"
     ],
     "psr-4": {
-      "luklew\\ModuleSkeleton\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "luklew\\ModuleSkeleton\\Tests\\": "tests/"
+      "Luklewluk\\ModuleSkeleton\\": ""
     }
   }
 }

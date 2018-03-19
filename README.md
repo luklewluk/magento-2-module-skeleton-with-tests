@@ -1,10 +1,8 @@
 # Magento 2 Module Skeleton with tests
 
-Very basic Magento module 2 skeleton with simple Unit Tests configuration.
-
-Note: Tests are configured to be run OUTSIDE a Magento project. That allows to create standalone module build.
+Magento 2 module skeleton with configuration for Unit Tests.
 
 ## Test Build
 
-1. `composer update`
+1. `composer install`
 2. `./vendor/bin/phpunit`
